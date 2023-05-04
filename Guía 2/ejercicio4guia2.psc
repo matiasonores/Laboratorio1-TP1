@@ -10,16 +10,16 @@ Proceso RecaudacionTotalViaje
 	recaudacion <- (pasajeros+bonificados)*valorPasaje;
 	recaudacionPromP <- ((pasajeros*valorPasaje)+bonificados*(valorPasaje-(valorPasaje*30/100)))/(pasajeros+bonificados);
 	recaudacionPromP = trunc(recaudacionPromP);
-	Escribir "La recaudaci髇 promedio por pasajero es de:$" , recaudacionPromP;
+	Escribir "La recaudaci贸n promedio por pasajero es de:$" , recaudacionPromP;
 	recaudacionPromU <- recaudacionPromP*42;
 	recaudacionPromU = trunc(recaudacionPromU);
-	Escribir "La recaudaci髇 promedio por unidad es de:$" ,recaudacionPromU;
+	Escribir "La recaudaci贸n promedio por unidad es de:$" ,recaudacionPromU;
 	recaudacionTotal <- (pasajeros*valorPasaje)+bonificados*(valorPasaje-(valorPasaje*30/100));
 	unidades <- (pasajeros+bonificados)/42;
 	unidades <- trunc(unidades);
 	asientos <- (pasajeros+bonificados) MOD 42;
 	asientos <- 42-asientos;
-	Escribir 'La recaudaci髇 total sin bonificaci髇 es de: $',recaudacion;
-	Escribir 'La recaudaci髇 total es de: $',recaudacionTotal;
+	Escribir 'La recaudaci贸n total sin bonificaci贸n es de: $',recaudacion;
+	Escribir 'La recaudaci贸n total es de: $',recaudacionTotal;
 	Escribir 'Se completaron en total:',unidades,' unidades y quedaron libres en total:',asientos,' asientos.';
 FinProceso
