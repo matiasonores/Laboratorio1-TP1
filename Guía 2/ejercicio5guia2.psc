@@ -6,5 +6,5 @@ Proceso TiempoCaida
 	velocidadFinal=raiz((2*gravedad)*altura);
 	tiempo=velocidadFinal/gravedad;	
 	escribir "El tiempo que tardo en caer fue de:", tiempo, "segundos.";
-	escribir "La velocidad final que alcanzó el objeto fue de:" ,velocidadFinal,"m/s.";
+	escribir "La velocidad final que alcanzÃ³ el objeto fue de:" ,velocidadFinal,"m/s.";
 FinProceso
