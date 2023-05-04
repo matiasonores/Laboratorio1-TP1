@@ -6,7 +6,7 @@ Proceso Promedio
 	Escribir 'Ingrese condicion de promocion:';
 	Leer condicion;
 	si prom>=condicion Entonces
-		Escribir 'Alumno promocionó';
+		Escribir 'Alumno promocionÃ³';
 	SiNo
 		Escribir 'Alumno rinde final';
 	FinSi
